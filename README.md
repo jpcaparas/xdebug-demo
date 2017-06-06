@@ -20,7 +20,7 @@ To get started with this project, run:
         composer create-project \
         --prefer-source \
         --stability=dev \
-        --dev \
+        jpcaparas/xdebug-demo \
         [dir-name]
 
 # Usage
