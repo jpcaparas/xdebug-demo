@@ -1,0 +1,14 @@
+{
+    "name": "jpcaparas/xdebug-demo",
+    "description": "A demo outlining the benefits of using Xdebug on your typical PHP development workflow.",
+    "type": "project",
+    "license": "UNLICENSE",
+    "authors": [
+        {
+            "name": "JP Caparas",
+            "email": "jp@jpcaparas.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
