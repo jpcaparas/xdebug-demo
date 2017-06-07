@@ -5,7 +5,6 @@ namespace App\Controllers;
 use Slim\Container;
 use Slim\Http\Request;
 use Slim\Http\Response;
-use Slim\Views\Twig;
 use Symfony\Component\Console\Exception\LogicException;
 
 class BaseController

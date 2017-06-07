@@ -1,0 +1,26 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <h1>GitHub user: <em>{{ user.login }}</em></h1>
+    <p>
+        <img height="150" width="150" src="{{ user.avatar_url }}" alt="{{ user.login }}">
+    </p>
+    <p>
+        <strong>Login</strong>: {{ user.login }}
+    </p>
+    <p>
+        <strong>Company</strong>: {{ user.company }}
+    </p>
+    <p>
+        <strong>Bio</strong>: {{ user.bio }}
+    </p>
+    <p>
+        <strong>Location</strong>: {{ user.location }}
+    </p>
+    <p>
+        &nbsp;
+    </p>
+    <p>
+        <a href="/">&larr; Search for another user</a>
+    </p>
+{% endblock %}

@@ -38,6 +38,7 @@ $container['view'] = function ($c) {
  * Routes
  */
 $app->get('/', App\Controllers\HomeController::class)->setName('home');
+$app->post('/github-user', App\Controllers\GitHubUserController::class)->setName('fetch-github-user');
 
 /**
  * Run application

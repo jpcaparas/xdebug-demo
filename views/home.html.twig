@@ -1,5 +1,18 @@
 {% extends 'layout.html.twig' %}
 
 {% block content %}
-<p>This is the home pages.</p>
+    <h1>Fetch a GitHub User</h1>
+    <p>
+        We use the Guzzle HTTP client to fetch a GitHub user's details.
+    </p>
+    <hr />
+    <form method="POST" action="/github-user">
+        <p>
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" placeholder="(e.g. jpcaparas)"/>
+        </p>
+        <p>
+            <button>Fetch details</button>
+        </p>
+    </form>
 {% endblock %}
