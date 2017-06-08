@@ -53,4 +53,4 @@ The `-n` flag effectively disables PHP from reading the `php.ini` file (where Xd
 
 # Attributions
 
-_Coming soon..._
+This demo is part of [Pixel Fusion](https://pixelfusion.co.nz) _Engineering Talks_ held every Friday, wherein we showcase tools and methodologies that empower developer productivity.
