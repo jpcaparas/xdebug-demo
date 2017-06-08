@@ -23,6 +23,11 @@ To get started with this project, run:
         jpcaparas/xdebug-demo \
         [dir-name]
 
+Once cloned, run tests to ensure everything is intact:
+
+        ./vendor/bin/codecept run
+
+
 # Usage
 
 _Coming soon..._
