@@ -17,15 +17,15 @@ A demo outlining the benefits of using Xdebug on your typical PHP development wo
 
 To get started with this project, run:
 
-        composer create-project \
-        --prefer-source \
-        --stability=dev \
-        jpcaparas/xdebug-demo \
-        [dir-name]
+    composer create-project \
+    --prefer-source \
+    --stability=dev \
+    jpcaparas/xdebug-demo \
+    [dir-name]
 
 Once cloned, run tests to ensure everything is intact:
 
-        ./vendor/bin/codecept run
+    ./vendor/bin/codecept run
 
 
 # Usage
@@ -40,7 +40,15 @@ _Coming soon..._
 
 # Gotchas
 
-_Coming soon..._
+> `composer` has become slower following Xdebug's installation. Is it possible to disable Xdebug on `composer` usage?
+ 
+Yes, append this nifty script on your `~/.bash_aliases` file (or its equivalent):
+
+    alias composer="php -n -d memory_limit=-1 $(which composer)"
+
+The `-n` flag effectively disables PHP from reading the `php.ini` file (where Xdebug is defined).
+
+---
 
 
 # Attributions
