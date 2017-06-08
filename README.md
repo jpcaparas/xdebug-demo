@@ -83,10 +83,6 @@ If the connection was successful, you'll be taken to the `Debugger` pane on PhpS
 At this point, all you need to do is familiarise yourself with the various commands at your disposal (e.g. frames, variables, console, stepping).
 
 More information about the various Debugger features can be seen [here](https://confluence.jetbrains.com/display/PhpStorm/Zero-configuration+Web+Application+Debugging+with+Xdebug+and+PhpStorm).
-    
-# Resources
-
-_Coming soon..._
 
 
 # Gotchas
@@ -98,6 +94,10 @@ Yes, append this nifty script on your `~/.bash_aliases` file (or its equivalent)
     alias composer="php -n -d memory_limit=-1 $(which composer)"
 
 The `-n` flag effectively disables PHP from reading the `php.ini` file (where Xdebug is defined).
+
+# Resources
+
+_Coming soon..._
 
 
 # Attributions
