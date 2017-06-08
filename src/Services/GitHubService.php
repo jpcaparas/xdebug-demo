@@ -4,7 +4,6 @@ namespace App\Services;
 
 use App\Exceptions\GitHubServiceException;
 use GuzzleHttp\Client;
-use GuzzleHttp\Exception\ClientException;
 
 class GitHubService
 {
